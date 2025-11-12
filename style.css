@@ -1,0 +1,47 @@
+:root {
+  --card-radius: 1rem;
+}
+
+.card {
+  border-radius: var(--card-radius);
+}
+
+#madlib-output {
+  min-height: 6rem;
+  line-height: 1.6;
+  font-size: 1.05rem;
+}
+
+#madlib-output h1{
+  color: #b30000;
+  text-shadow: 0 0 9px #b30000;
+  font-family:'creepster',cursive;
+}
+
+#madlib-output p{
+  color:#e0e0e0;
+}
+
+body {
+  background-color:#1b1b1b;
+  color:#e0e0e0
+}
+
+button.btn-primary {
+  background-color: #8abf3d;
+  border-color: #8abf3d;
+}
+
+.card {
+  border-radius:dotted; 
+  background-color:#262626;
+  border:dashed;
+}
+
+#madlib-output {
+  line-height:1.6;
+  font-size:1.05rem;
+}
+
+
+
