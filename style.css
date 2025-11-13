@@ -2,46 +2,45 @@
   --card-radius: 1rem;
 }
 
-.card {
-  border-radius: var(--card-radius);
+/* body Styles */
+body {
+  background-color: #1b1b1b;
+  color: #a4d65e;
+  font-family: 'Poppins', Arial, sans-serif;
 }
 
+/* Button */
+button.btn-primary {
+  background-color: #8abf3d;
+  border-color: #8abf3d;
+}
+button.btn-primary:hover {
+  background-color: #a4d65e;
+  border-color: #a4d65e;
+}
+
+/* Card Styling */
+.card {
+  border-radius: var(--card-radius);
+  border: 2px dashed #8abf3d;
+  background-color: #262626;
+}
+
+/* Mad Lib Output */
 #madlib-output {
   min-height: 6rem;
   line-height: 1.6;
   font-size: 1.05rem;
 }
 
-#madlib-output h1{
+#madlib-output h1 {
   color: #b30000;
   text-shadow: 0 0 9px #b30000;
-  font-family:'creepster',cursive;
+  font-family: 'Creepster', cursive;
 }
 
-#madlib-output p{
-  color:#e0e0e0;
+#madlib-output p {
+  color: #c4e88b; 
 }
-
-body {
-  background-color:#1b1b1b;
-  color:#e0e0e0
-}
-
-button.btn-primary {
-  background-color: #8abf3d;
-  border-color: #8abf3d;
-}
-
-.card {
-  border-radius:dotted; 
-  background-color:#262626;
-  border:dashed;
-}
-
-#madlib-output {
-  line-height:1.6;
-  font-size:1.05rem;
-}
-
 
 
