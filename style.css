@@ -4,7 +4,7 @@
 
 /* body Styles */
 body {
-  background-color: #1b1b1b;
+  background-color: white;
   color: #a4d65e;
   font-family: 'Poppins', Arial, sans-serif;
 }
@@ -23,7 +23,7 @@ button.btn-primary:hover {
 .card {
   border-radius: var(--card-radius);
   border: 2px dashed #8abf3d;
-  background-color: #262626;
+  background-color:white;
 }
 
 /* Mad Lib Output */
